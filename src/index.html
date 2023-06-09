@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather sounds</title>
+		<link rel="stylesheet" href="./index.css" />
+		<script defer src="./index.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<span>Weather sounds</span>
+				<div class="buttons">
+					<div class="button summer" data-bg="./assets/summer-bg.jpg" data-weather="summer">
+						<img src="./assets/icons/sun.svg" alt="summer" />
+						<audio src="./assets/sounds/summer.mp3"></audio>
+					</div>
+					<div class="button rain" data-bg="./assets/rainy-bg.jpg" data-weather="rain">
+						<img src="./assets/icons/cloud-rain.svg" alt="rain" />
+						<audio src="./assets/sounds/rain.mp3"></audio>
+					</div>
+					<div class="button winter" data-bg="./assets/winter-bg.jpg" data-weather="winter">
+						<img src="./assets/icons/cloud-snow.svg" alt="cloud" />
+						<audio src="./assets/sounds/winter.mp3"></audio>
+					</div>
+				</div>
+				<input class="volume-control" type="range" value="30" />
+			</div>
+		</div>
+	</body>
+</html>

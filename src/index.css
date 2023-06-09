@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: url('./assets/summer-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	padding: 10px;
+	background-color: rgb(255 255 255 / 0.1);
+	backdrop-filter: blur(4px);
+	height: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container span {
+	text-align: center;
+	color: #ec7138;
+	font-weight: 700;
+	font-size: 54px;
+}
+
+.buttons {
+	margin-top: 30px;
+	display: flex;
+	gap: 30px;
+}
+
+.button {
+	width: 185px;
+	height: 185px;
+	background-size: cover;
+	border-radius: 10px;
+	border: 1px solid #fefefe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button img {
+	width: 54px;
+	height: 54px;
+	user-select: none;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.volume-control {
+	margin-top: 30px;
+}
+
+.summer {
+	background-image: url('./assets/summer-bg.jpg');
+}
+
+.rain {
+	background-image: url('./assets/rainy-bg.jpg');
+}
+
+.winter {
+	background-image: url('./assets/winter-bg.jpg');
+}
